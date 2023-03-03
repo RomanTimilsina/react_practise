@@ -7,7 +7,6 @@ export default function useBookSearches(query,pageNumber) {
   const [error,setError] = useState(false)
   const [ books,setBooks] = useState([])
   const [hasMore,setHasMore] = useState(false)
-  console.log(books)
 
   useEffect(() => {
     setBooks([])
